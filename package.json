@@ -1,16 +1,17 @@
 {
   "name": "jdmgarage-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "backend that store cars data and photo image",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "backend" : "index.js"
+    "backend": "index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cloudinary": "^1.30.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mongoose": "^6.3.4"
