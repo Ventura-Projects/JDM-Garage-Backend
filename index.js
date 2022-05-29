@@ -1,9 +1,6 @@
 // const connectDB = require('./db/connect')
 const express = require('express');
 const router = require('./routes/Jdm') 
-    
-    
-require('dotenv').config()
 
 // port
 const port = 5000 || process.env.PORT;
@@ -19,7 +16,6 @@ const start = async () => {
         console.log('Starting server')
         // connect to monggoDB
         // await connectDB
-
 
         server.listen(port, console.log('server listening on port:'+port))
         console.log('connected')
